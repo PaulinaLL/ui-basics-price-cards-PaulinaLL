@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Price cards</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+      section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: mistyrose;
+        height: 100vh;
+      }
+      div {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        padding: 30px;
+        margin: 20px;
+      }
+      div:nth-child(1) {
+        border-top: 10px solid yellow;
+      }
+
+      div:nth-child(2) {
+        border-top: 10px solid rgb(38, 204, 46);
+      }
+
+      div:nth-child(3) {
+        border-top: 10px solid rgb(59, 47, 226);
+      }
+
+      img {
+        width: 20%;
+        margin: 0 auto;
+      }
+      h1,
+      h2,
+      p,
+      td {
+        text-align: center;
+      }
+      table {
+        border-collapse: collapse;
+      }
+      td {
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+      }
+      button {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div>
+        <img src="/images/sm.png" alt="small" />
+        <h2>Micro Space</h2>
+        <p>For teams working on single-purpoose sites, mobile apps and loT</p>
+        <table>
+          <tbody>
+            <tr>
+              <td>1 role</td>
+              <td>2 locales</td>
+            </tr>
+            <tr>
+              <td>24 types</td>
+              <td>5,000 records</td>
+            </tr>
+          </tbody>
+        </table>
+        <h4>89$</h4>
+        <p>/month</p>
+      </div>
+      <div>
+        <img src="/images/l.png" alt="large" />
+        <h1>Large Space</h1>
+        <p>
+          For teams shipping complex apps and working with multilingual content
+        </p>
+        <table>
+          <tbody>
+            <tr>
+              <td>4 roles</td>
+              <td>10 locales</td>
+            </tr>
+            <tr>
+              <td>48 types</td>
+              <td>50,000 records</td>
+            </tr>
+          </tbody>
+        </table>
+        <h4>459$</h4>
+        <p>/month</p>
+      </div>
+      <div>
+        <img src="/images/xl.png" alt="xl" />
+        <h2>XL Spaces</h2>
+        <p>For organizations-wide use and teams producing content at scale.</p>
+        <table>
+          <tbody>
+            <tr>
+              <td>More roles</td>
+              <td>More locales</td>
+            </tr>
+            <tr>
+              <td>More content types</td>
+              <td>More records</td>
+            </tr>
+          </tbody>
+        </table>
+        <button>Talk to us</button>
+      </div>
+    </section>
+  </body>
+</html>
