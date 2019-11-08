@@ -22,17 +22,17 @@
         display: flex;
         flex-direction: column;
         background-color: white;
-        /* padding: 30px; */
         margin: 20px;
         justify-content: center;
         align-items: center;
         min-width: 150px;
-        width: 350px;
-        transform: 0.9s 0.6s;
+        width: 400px;
+        transition: 0.3s;
         height: 60vh;
       }
       div:nth-child(1) {
         border-top: 10px solid yellow;
+        width: 300px;
       }
 
       div:nth-child(2) {
@@ -42,11 +42,13 @@
 
       div:nth-child(3) {
         border-top: 10px solid rgb(59, 47, 226);
+        width: 300px;
       }
 
       img {
         width: 50px;
         margin: 0 auto;
+        padding-top: 30px;
       }
 
       h1,
@@ -55,26 +57,34 @@
       td {
         text-align: center;
       }
+      p {
+        padding: 0 30px;
+      }
       span {
         /* font-weight: 600; */
         font-size: 3em;
       }
       table {
         border-collapse: collapse;
+        padding: 0;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        width: 100%;
       }
+
       td {
-        border-top: 1px solid gray;
-        border-bottom: 1px solid gray;
+        border-top: 1px solid rgb(216, 212, 212);
+        border-bottom: 1px solid rgb(216, 212, 212);
         padding: 20px;
       }
       td:first-child {
-        border-right: 1px solid gray;
+        border-right: 1px solid rgb(216, 212, 212);
       }
       button {
         background-color: white;
         color: blue;
         width: 150px;
-        height: 50px;
+        height: 80px;
         margin: 40px;
         border-radius: 15px;
       }
@@ -145,7 +155,7 @@
             </tr>
           </tbody>
         </table>
-        <button>Talk to us</button>
+        <button><p>Talk to us</p></button>
       </div>
     </section>
   </body>
